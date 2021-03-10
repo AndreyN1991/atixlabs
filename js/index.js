@@ -2,10 +2,10 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
   [29],
   {
       "08EN": function (e, t, n) {
-          e.exports = { changeColor: "news_changeColor__3l0KU", NewsContainer: "news_NewsContainer__3bHnn", NewsContent: "news_NewsContent__jXhfa", ButtonConnect: "news_ButtonConnect__3_TY6" };
+          e.exports = { changeColor: "news_changeColor__3l0KU", NewsContainer: "", NewsContent: "news_NewsContent__jXhfa", ButtonConnect: "news_ButtonConnect__3_TY6" };
       },
       "2Fzw": function (e, t, n) {
-          e.exports = { changeColor: "our-projects_changeColor__orLoQ", OurProjects: "our-projects_OurProjects__1lrBt", OurProjectsContainer: "our-projects_OurProjectsContainer__2Z_Qd" };
+          e.exports = { changeColor: "our-projects_changeColor__orLoQ", OurProjects: "", OurProjectsContainer: "our-projects_OurProjectsContainer__2Z_Qd" };
       },
       "4qaO": function (e, t, n) {
           e.exports = {
@@ -280,25 +280,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
               Q = function () {
                   return D(
                       "div",
-                      { className: j.LetsConnectContainer },
-                      D("div", { className: "LittleText" }, D(u.a, { headerLabel1: "let's", headerLabel2: "connect", headerLabel3: "\u2192", theme: "grey" })),
-                      D(
-                          "div",
-                          { className: j.ConnectContent },
-                          D(
-                              "div",
-                              { className: j.CallToActions },
-                              D("p", { className: j.Subtitle }, "You are interested in:"),
-                              D(
-                                  "div",
-                                  { className: j.ButtonsContainer },
-                                  D(r.a, { href: "/contact-us" }, D("a", { className: j.ButtonConnect }, "New Project \u2192")),
-                                  D(r.a, { href: "/careers" }, D("a", { className: j.ButtonConnect }, "Career \u2192"))
-                              ),
-                              D("img", { src: "/asterisco.svg", alt: "Asterisco", className: j.AsteriskIcon })
-                          ),
-                          D("div", { className: j.Quote }, D("h1", null, "Let's Talk!"))
-                      )
+                      {  }
                   );
               },
               R = n("QmYY"),
@@ -329,73 +311,16 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
               F = s.a.createElement,
               Y = function () {
                   return F(
-                      g.a,
-                      { arrows: !0, dots: !1 },
-                      F(
-                          "div",
-                          null,
-                          F(W, {
-                              titleCase: "New Balance Realchain",
-                              textCase: "NB Realchain aims to help solve the counterfeiting problem in the clothing industry,  starting with exclusive and limited edition shoes.",
-                              itemText1: "\u25cf Tangem Cards",
-                              itemText2: "\u25cf NFC Technology",
-                              itemText3: "\u25cf Cardano Blockchain",
-                              imgCase: "nb-mockup-01.png",
-                              id: "1",
-                              caseLink: "/nb-realchain",
-                          })
-                      ),
-                      F(
-                          "div",
-                          null,
-                          F(W, {
-                              titleCase: "Circles of Angels",
-                              textCase:
-                                  "A funding network to enable social impact financing for all using blockchain technology \u2013 \u200b\u200bwe facilitate the funding process with transparency on how the lives of producers are actually being impacted.",
-                              itemText1: "\u25cf Open Source",
-                              itemText2: "\u25cf  DAO",
-                              imgCase: "coa-home-mockup-01.png",
-                              id: "3",
-                              caseLink: "/circles-of-angels",
-                          })
-                      ),
-                      F(
-                          "div",
-                          null,
-                          F(W, {
-                              titleCase: "Atala PRISM",
-                              textCase:
-                                  "Atala PRISM provides the infrastructure for verifying credentials in a more secure, reliable and convenient way, enabling businesses to instantly verify digital records without the need for third party agencies.",
-                              itemText1: "\u25cf Decentralized Identity",
-                              itemText2: "\u25cf Open Source",
-                              imgCase: "atala-home-mockup-01.png",
-                              id: "1",
-                              caseLink: "/atala-prism",
-                          })
-                      ),
-                      F(
-                          "div",
-                          null,
-                          F(W, {
-                              titleCase: "Stake Pool Cardano",
-                              textCase: "Investing in cryptocurrencies without much volatility for crypto investors who are not as prone to the risk of Bitcoin\u2019s high volatility.",
-                              itemText1: "\u25cf Dashboard",
-                              itemText2: "\u25cf Staking Rewards",
-                              imgCase: "cardano-stake-pool-mockup-01.png",
-                              id: "2",
-                              caseLink: "/cardano-stake-pool",
-                          })
-                      )
+                      "div",
+                      
                   );
               },
               q = n("2Fzw"),
               H = s.a.createElement,
               U = function () {
                   return H(
-                      "div",
-                      { className: q.OurProjects },
-                      H("div", { className: "LittleText" }, H(u.a, { headerLabel1: "projects", headerLabel2: "\u2192", theme: "grey" })),
-                      H("div", { className: q.OurProjectsContainer }, H(Y, null))
+                      "div"
+                      
                   );
               },
               X = n("08EN"),
@@ -475,10 +400,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
               $ = s.a.createElement,
               ee = function () {
                   return $(
-                      "div",
-                      { className: X.NewsContainer },
-                      $("div", { className: "LittleText" }, $(u.a, { headerLabel1: "FEATURED", headerLabel2: "NEWS", headerLabel3: "\u2192", theme: "grey" })),
-                      $("div", { className: X.NewsContent }, $("h2", null, "News"), $(G, null), $("a", { href: "https://medium.com/atix-labs", target: "_blank", className: X.ButtonConnect }, "View All \u2192"))
+                      "div"
                   );
               },
               te = n("rOJc"),
@@ -568,7 +490,6 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
       nkjA: function (e, t, n) {
           e.exports = {
               changeColor: "lets-connect_changeColor__3TYcU",
-              LetsConnectContainer: "lets-connect_LetsConnectContainer__19Z6l",
               ConnectContent: "lets-connect_ConnectContent__BS845",
               CallToActions: "lets-connect_CallToActions__2dv2m",
               AsteriskIcon: "lets-connect_AsteriskIcon__2IrP3",
