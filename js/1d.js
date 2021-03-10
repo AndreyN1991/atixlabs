@@ -3422,8 +3422,7 @@
                       "div",
                       { className: g.ContactListContainer },
                       v("div", { className: g.ContactListItem }, v("p", null, "Let's talk"), v(i.a, { href: "/contact-us" }, v("p", { className: g.ContactListlink }, "Contact us \u2197"))),
-                      v("div", { className: g.ContactListItem }, v("p", null, "Politics"), v(i.a, { href: "/privacy" }, v("p", { className: g.ContactListlink }, "Privacy \u2197"))),
-                      v("div", { className: g.ContactListItem }, v("p", null, "Cookies"), v(i.a, { href: "/cookies" }, v("p", { className: g.ContactListlink }, "Cookies \u2197")))
+                      v("div", { className: g.ContactListItem }, v("p", null, "Politics"), v(i.a, { href: "/privacy" }, v("p", { className: g.ContactListlink }, "Privacy \u2197")))
                   );
               },
               b = r.a.createElement,
@@ -3435,7 +3434,7 @@
                           "div",
                           { className: Y.HeadFooterContainer },
                           b("div", { className: Y.LogoFooterContainer }, b(d.a, { src: "/isocombine.svg", className: Y.LogoFooter, alt: "Atix logo", layout: "fill", objectFit: "contain" })),
-                          b("p", { className: Y.Copywrite }, "\xa9 ", L.a, " Atix Labs. All rights reserved |", b(i.a, { href: "/privacy-policy" }, "Privacy Policy"))
+                          b("p", { className: Y.Copywrite }, "", "", b(i.a, { href: "" }, ""))
                       ),
                       b("hr", { className: Y.FooterLine }),
                       b(
@@ -3462,19 +3461,7 @@
                                       b("li", null, b(i.a, { href: "#wedo" }, b("p", { className: Y.ListMenuItem }, "What we do")))
                                   )
                               ),
-                              b(
-                                  "div",
-                                  { className: Y.ListMenuContainer },
-                                  b(
-                                      "ul",
-                                      { className: Y.ListMenu },
-                                      b("li", null, b("a", { href: "https://www.instagram.com/atixlabs/", target: "_blank" }, b("p", { className: Y.ListMenuItem }, "Instagram"))),
-                                      b("li", null, b("a", { href: "https://www.facebook.com/atixlabs/", target: "_blank" }, b("p", { className: Y.ListMenuItem }, "Facebook"))),
-                                      b("li", null, b("a", { href: "https://twitter.com/atixlabs", target: "_blank" }, b("p", { className: Y.ListMenuItem }, "Twitter"))),
-                                      b("li", null, b("a", { href: "https://www.linkedin.com/company/atix-labs", target: "_blank" }, b("p", { className: Y.ListMenuItem }, "Linkedin"))),
-                                      b("li", null, b("a", { href: "https://medium.com/atix-labs", target: "_blank" }, b("p", { className: Y.ListMenuItem }, "Medium")))
-                                  )
-                              ),
+                              
                               b(k, null)
                           )
                       )

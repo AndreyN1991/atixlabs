@@ -61,34 +61,17 @@
     text-decoration: none;
     position: relative;
     font-size: 13px;
-    padding: 4px 12px;
+    padding: .5em 1.5em;
     color: #FFF;
     font-weight: bold;
     text-transform: uppercase; 
-    background: #337AB7;
-    border: 2px solid #b4ffff;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
 }
 .cookie_btn:hover {
-    color: #FFF;
-}
-.cookie_btn:after,
-.cookie_btn:before {
-    position: absolute;
-    height: 2px;
-    left: 50%;
+    color: #2c2c2c;
     background: #FFF;
-    bottom: -6px;
-    content: "";
-    transition: all 280ms ease-in-out;
-    width: 0;
-}
-.cookie_btn:before {
-    top: -6px;
-}
-.cookie_btn:hover:after,
-.cookie_btn:hover:before {
-    width: 100%;
-    left: 0;
 }
         </style>
     </head>
@@ -1679,9 +1662,7 @@
                                     </div>
                                 </div>
                                 <p class="footer_Copywrite__33qGG">
-                                    ©
-                                    <!-- -->2021<!-- -->
-                                    Atix Labs. All rights reserved |<a href="/privacy-policy">Privacy Policy</a>
+                                    
                                 </p>
                             </div>
                             <hr class="footer_FooterLine__1Hfn9" />
@@ -1701,25 +1682,7 @@
                                             <li><p class="footer_ListMenuItem__2icEy">What we do</p></li>
                                         </ul>
                                     </div>
-                                    <div class="footer_ListMenuContainer__2WN28">
-                                        <ul class="footer_ListMenu__DhqeQ">
-                                            <li>
-                                                <a href="https://www.instagram.com/atixlabs/" target="_blank"><p class="footer_ListMenuItem__2icEy">Instagram</p></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.facebook.com/atixlabs/" target="_blank"><p class="footer_ListMenuItem__2icEy">Facebook</p></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://twitter.com/atixlabs" target="_blank"><p class="footer_ListMenuItem__2icEy">Twitter</p></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://www.linkedin.com/company/atix-labs" target="_blank"><p class="footer_ListMenuItem__2icEy">Linkedin</p></a>
-                                            </li>
-                                            <li>
-                                                <a href="https://medium.com/atix-labs" target="_blank"><p class="footer_ListMenuItem__2icEy">Medium</p></a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    
                                     <div class="contact-list_ContactListContainer__2MzMl">
                                         <div class="contact-list_ContactListItem__2WgHW">
                                             <p>Let&#x27;s talk</p>
@@ -1729,10 +1692,6 @@
                                             <p>Politics</p>
                                             <p class="contact-list_ContactListlink__3hLVG">Privacy ↗</p>
                                         </div>
-                                        <div class="contact-list_ContactListItem__2WgHW">
-                                          <p>Cookies</p>
-                                          <p class="contact-list_ContactListlink__3hLVG">Cookies ↗</p>
-                                      </div>
                                     </div>
                                 </div>
                             </div>
@@ -1778,8 +1737,9 @@ function getCookie(name) {
 }
 let cookiecook = getCookie("cookiecook"),
 cookiewin = document.getElementsByClassName('cookie_notice')[0];
-// проверяем, есть ли у нас cookie, с которой мы не показываем окно и если нет, запускаем показ
-if (cookiecook != "no") {
+setTimeout(function()
+{ 
+    if (cookiecook != "no") {
     // показываем    
     cookiewin.style.display="block"; 
     // закрываем по клику
@@ -1791,6 +1751,10 @@ if (cookiecook != "no") {
         document.cookie = "cookiecook=no; path=/; expires=" + date.toUTCString();               
     });
 }
+}, 
+2000);
+// проверяем, есть ли у нас cookie, с которой мы не показываем окно и если нет, запускаем показ
+
 </script>
     </body>
 </html>
