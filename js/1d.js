@@ -3433,7 +3433,7 @@
                       b(
                           "div",
                           { className: Y.HeadFooterContainer },
-                          b("div", { className: Y.LogoFooterContainer }, b(d.a, { src: "/atixlabs/logo.png", className: Y.LogoFooter, alt: "Atix logo", layout: "fill", objectFit: "contain" })),
+                          b("div", { className: Y.LogoFooterContainer }, b(d.a, { src: "/logo.png", className: Y.LogoFooter, alt: "Atix logo", layout: "fill", objectFit: "contain" })),
                           b("p", { className: Y.Copywrite }, "", "", b(i.a, { href: "" }, ""))
                       ),
                       b("hr", { className: Y.FooterLine }),
