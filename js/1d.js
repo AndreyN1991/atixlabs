@@ -3433,7 +3433,7 @@
                       b(
                           "div",
                           { className: Y.HeadFooterContainer },
-                          b("div", { className: Y.LogoFooterContainer }, b(d.a, { src: "/isocombine.svg", className: Y.LogoFooter, alt: "Atix logo", layout: "fill", objectFit: "contain" })),
+                          b("div", { className: Y.LogoFooterContainer }, b(d.a, { src: "/logo.png", className: Y.LogoFooter, alt: "Atix logo", layout: "fill", objectFit: "contain" })),
                           b("p", { className: Y.Copywrite }, "", "", b(i.a, { href: "" }, ""))
                       ),
                       b("hr", { className: Y.FooterLine }),
@@ -4396,7 +4396,7 @@
                           je(
                               "div",
                               { className: Se.HeaderRight },
-                              je("div", { className: Se.LogoContainer }, je(i.a, { href: "/" }, je(d.a, { src: "/logoAtixWhite.svg", alt: "Logo Atix", className: Se.LogoAtix, width: 80, height: 60 }))),
+                              je("div", { className: Se.LogoContainer }, je(i.a, { href: "/" }, je(d.a, { src: "/logo.png", alt: "Logo Atix", className: Se.LogoAtix, width: 80, height: 60 }))),
                               je(
                                   "div",
                                   { className: Se.LabelContainer },
@@ -11253,7 +11253,7 @@
                                       return t === l ? "".concat(e, "px") : "(max-width: ".concat(e, "px) ").concat(e, "px");
                                   })
                                   .join(", "));
-                          return { src: (t = L({ src: t, quality: i, width: u[l] })), sizes: o, srcSet: m };
+                          return { src: (t = "../image" + t), sizes: o };
                       })({ src: t, unoptimized: o, layout: w, width: C, quality: N, sizes: n }));
                   D && ((S = void 0), (j = void 0), (R = void 0));
                   return d.default.createElement(
@@ -11266,7 +11266,7 @@
                                 H ? d.default.createElement("img", { style: { maxWidth: "100%", display: "block" }, alt: "", "aria-hidden": !0, role: "presentation", src: "data:image/svg+xml;base64,".concat((0, u.toBase64)(H)) }) : null
                             )
                           : null,
-                      d.default.createElement("img", Object.assign({}, b, I, { decoding: "async", className: h, ref: E, style: R }))
+                      d.default.createElement("img", Object.assign({}, I, { decoding: "async", className: h, ref: E, style: R }))
                   );
               });
           var i = s(n("8OQS")),
