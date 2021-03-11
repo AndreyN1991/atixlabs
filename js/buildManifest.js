@@ -32,7 +32,7 @@ self.__BUILD_MANIFEST = (function (a, b, c, d, e, f, g, h, i, j, k, l, m, n) {
           "\u002Fgarantizar",
           "\u002Fmoney-on-chain",
           "\u002Fnb-realchain",
-          "\u002Fprivacy-policy",
+          "\u002Fprivacy",
           "\u002Fprojects",
           "\u002Fwhat-we-do",
       ],

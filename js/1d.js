@@ -3421,8 +3421,8 @@
                   return v(
                       "div",
                       { className: g.ContactListContainer },
-                      v("div", { className: g.ContactListItem }, v("p", null, "Let's talk"), v(i.a, { href: "/contact-us" }, v("p", { className: g.ContactListlink }, "Contact us \u2197"))),
-                      v("div", { className: g.ContactListItem }, v("p", null, "Politics"), v(i.a, { href: "/privacy" }, v("p", { className: g.ContactListlink }, "Privacy \u2197")))
+                      v("div", { className: g.ContactListItem }, v("p", null, "Let's talk"), v(i.a, { href: "/contact-us.html" }, v("p", { className: g.ContactListlink }, "Contact us \u2197"))),
+                      v("div", { className: g.ContactListItem }, v("p", null, "Politics"), v(i.a, { href: "/privacy.html" }, v("p", { className: g.ContactListlink }, "Privacy \u2197")))
                   );
               },
               b = r.a.createElement,
