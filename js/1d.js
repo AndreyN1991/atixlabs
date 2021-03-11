@@ -4315,11 +4315,10 @@
                   return be(
                       "div",
                       { className: ke.NavMenu },
-                      be(i.a, { href: "#aboutus" }, be("a", null, "About Us")),
-                      be(i.a, { href: "#wedo" }, be("a", null, "What We Do")),
-                      be(i.a, { href: "/projects" }, be("a", null, "Projects")),
-                      be(i.a, { href: "/careers" }, be("a", null, "Careers")),
-                      be(i.a, { href: "/contact-us" }, be("a", null, "Contact Us"))
+                      be(i.a, { href: "/#aboutus" }, be("a", null, "About Us")),
+                      be(i.a, { href: "/#wedo" }, be("a", null, "What We Do")),
+                      be(i.a, { href: "/#trust" }, be("a", null, "Know Us")),
+                      be(i.a, { href: "/contact-us.html" }, be("a", null, "Contact Us"))
                   );
               },
               De = r.a.createElement,
@@ -4353,17 +4352,7 @@
                               closeIcon: De("img", { src: "/icon-close.svg", alt: "Menu", className: ve.CloseIcon }),
                           },
                           De("div", null, De(y, { headerLabel1: "Blockchain", headerLabel2: "Company", theme: "black" })),
-                          De(we, null),
-                          De("p", null, "\u2199"),
-                          De(
-                              "ul",
-                              { className: ve.ListMenu },
-                              De("li", null, De("a", { href: "https://www.instagram.com/atixlabs/", target: "_blank" }, De("p", { className: ve.ListMenuItem }, "Instagram"))),
-                              De("li", null, De("a", { href: "https://www.facebook.com/atixlabs/", target: "_blank" }, De("p", { className: ve.ListMenuItem }, "Facebook"))),
-                              De("li", null, De("a", { href: "https://twitter.com/atixlabs", target: "_blank" }, De("p", { className: ve.ListMenuItem }, "Twitter"))),
-                              De("li", null, De("a", { href: "https://www.linkedin.com/company/atix-labs", target: "_blank" }, De("p", { className: ve.ListMenuItem }, "Linkedin"))),
-                              De("li", null, De("a", { href: "https://medium.com/atix-labs", target: "_blank" }, De("p", { className: ve.ListMenuItem }, "Medium")))
-                          )
+                          De(we, null)
                       )
                   );
               },

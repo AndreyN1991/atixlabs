@@ -96,7 +96,7 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
                                     "div",
                                     "",
                                     _(r.a, { href: "#close", id: "cookie_close" }, _("a", { className: "cookie_btn cookie_close" }, "Accept")),
-                                    _(r.a, { href: "/privacy" }, _("a", { className: "cookie_btn" }, "More information"))
+                                    _(r.a, { href: "/privacy.html" }, _("a", { className: "cookie_btn" }, "More information"))
                                 )
                               ),
                               _(r.a, { href: "#wedo" }, _("a", { className: "ButtonLink" }, "What we do \u2192"))
