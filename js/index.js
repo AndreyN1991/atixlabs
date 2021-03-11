@@ -25,11 +25,11 @@ _N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
               n.d(t, "b", function () {
                   return i;
               });
-          var a = ["/clients/1.svg", "/clients/2.svg", "/clients/3.svg", "/clients/4.svg", "/clients/5.svg"],
-              s = ["/clients/6.png", "/clients/7.svg", "/clients/8.svg", "/clients/9.svg", "/clients/10.svg"],
-              o = ["/clients/11.svg", "/clients/12.svg", "/clients/13.svg", "/clients/14.svg", "/clients/15.svg"],
+          var a = ["/unknown.jpg", "/unknown.jpg", "/unknown.jpg", "/unknown.jpg", "/unknown.jpg"],
+              s = ["/unknown.jpg", "/unknown.jpg", "/unknown.jpg", "/unknown.jpg", "/unknown.jpg"],
+              o = ["/unknown.jpg", "/unknown.jpg", "/unknown.jpg", "/unknown.jpg", "/unknown.jpg"],
               r = [a, s, o],
-              i = [a, s, o, ["/clients/16.svg", "/clients/17.svg", "/clients/18.svg", "/clients/19.svg", "/clients/20.svg"], ["/clients/21.svg", "/clients/22.svg", "/clients/23.svg", "/clients/24.png", "/clients/25.svg"]];
+              i = [a, s, o, ["/unknown.jpg", "/unknown.jpg", "/unknown.jpg", "/unknown.jpg", "/unknown.jpg"], ["/unknown.jpg", "/unknown.jpg", "/unknown.jpg", "/unknown.jpg", "/unknown.jpg"]];
       },
       JAve: function (e, t, n) {
           e.exports = { changeColor: "our-clients_changeColor__3cUo2", OurClientsContainer: "our-clients_OurClientsContainer__3XVlQ", ClientsCarrousel: "our-clients_ClientsCarrousel__36TVI" };
