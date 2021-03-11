@@ -3421,8 +3421,8 @@
                   return v(
                       "div",
                       { className: g.ContactListContainer },
-                      v("div", { className: g.ContactListItem }, v("p", null, "Let's talk"), v(i.a, { href: "/contact-us.html" }, v("p", { className: g.ContactListlink }, "Contact us \u2197"))),
-                      v("div", { className: g.ContactListItem }, v("p", null, "Politics"), v(i.a, { href: "/privacy.html" }, v("p", { className: g.ContactListlink }, "Privacy \u2197")))
+                      v("div", { className: g.ContactListItem }, v("p", null, "Let's talk"), v(i.a, { href: "/atixlabs/contact-us.html" }, v("p", { className: g.ContactListlink }, "Contact us \u2197"))),
+                      v("div", { className: g.ContactListItem }, v("p", null, "Politics"), v(i.a, { href: "/atixlabs/privacy.html" }, v("p", { className: g.ContactListlink }, "Privacy \u2197")))
                   );
               },
               b = r.a.createElement,
@@ -3433,7 +3433,7 @@
                       b(
                           "div",
                           { className: Y.HeadFooterContainer },
-                          b("div", { className: Y.LogoFooterContainer }, b(d.a, { src: "/logo.png", className: Y.LogoFooter, alt: "Atix logo", layout: "fill", objectFit: "contain" })),
+                          b("div", { className: Y.LogoFooterContainer }, b(d.a, { src: "/atixlabs/logo.png", className: Y.LogoFooter, alt: "Atix logo", layout: "fill", objectFit: "contain" })),
                           b("p", { className: Y.Copywrite }, "", "", b(i.a, { href: "" }, ""))
                       ),
                       b("hr", { className: Y.FooterLine }),
@@ -3457,8 +3457,8 @@
                                       "ul",
                                       { className: Y.ListMenu },
                                       b("li", null, b(i.a, { href: "/" }, b("p", { className: Y.ListMenuItem }, "HOME"))),
-                                      b("li", null, b(i.a, { href: "#aboutus" }, b("p", { className: Y.ListMenuItem }, "About us"))),
-                                      b("li", null, b(i.a, { href: "#wedo" }, b("p", { className: Y.ListMenuItem }, "What we do")))
+                                      b("li", null, b(i.a, { href: "/atixlabs/#aboutus" }, b("p", { className: Y.ListMenuItem }, "About us"))),
+                                      b("li", null, b(i.a, { href: "/atixlabs/#wedo" }, b("p", { className: Y.ListMenuItem }, "What we do")))
                                   )
                               ),
                               
@@ -4315,10 +4315,10 @@
                   return be(
                       "div",
                       { className: ke.NavMenu },
-                      be(i.a, { href: "/#aboutus" }, be("a", null, "About Us")),
-                      be(i.a, { href: "/#wedo" }, be("a", null, "What We Do")),
-                      be(i.a, { href: "/#trust" }, be("a", null, "Know Us")),
-                      be(i.a, { href: "/contact-us.html" }, be("a", null, "Contact Us"))
+                      be(i.a, { href: "/atixlabs/#aboutus" }, be("a", null, "About Us")),
+                      be(i.a, { href: "/atixlabs/#wedo" }, be("a", null, "What We Do")),
+                      be(i.a, { href: "/atixlabs/#trust" }, be("a", null, "Know Us")),
+                      be(i.a, { href: "/atixlabs/contact-us.html" }, be("a", null, "Contact Us"))
                   );
               },
               De = r.a.createElement,
@@ -4385,7 +4385,7 @@
                           je(
                               "div",
                               { className: Se.HeaderRight },
-                              je("div", { className: Se.LogoContainer }, je(i.a, { href: "/" }, je(d.a, { src: "/logo.png", alt: "Logo Atix", className: Se.LogoAtix, width: 80, height: 60 }))),
+                              je("div", { className: Se.LogoContainer }, je(i.a, { href: "/" }, je(d.a, { src: "/atixlabs/logo.png", alt: "Logo Atix", className: Se.LogoAtix, width: 80, height: 60 }))),
                               je(
                                   "div",
                                   { className: Se.LabelContainer },
