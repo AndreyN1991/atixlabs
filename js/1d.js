@@ -4349,7 +4349,7 @@
                               visible: t,
                               width: "85%",
                               className: ve.MenuDrawer,
-                              closeIcon: De("img", { src: "/icon-close.svg", alt: "Menu", className: ve.CloseIcon }),
+                              closeIcon: De("img", { src: "../atixlabs/image/icon-close.png", alt: "Menu", className: ve.CloseIcon }),
                           },
                           De("div", null, De(y, { headerLabel1: "Blockchain", headerLabel2: "Company", theme: "black" })),
                           De(we, null)
