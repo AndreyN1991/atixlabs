@@ -4385,7 +4385,7 @@
                           je(
                               "div",
                               { className: Se.HeaderRight },
-                              je("div", { className: Se.LogoContainer }, je(i.a, { href: "/" }, je(d.a, { src: "/atixlabs/logo.png", alt: "Logo Atix", className: Se.LogoAtix, width: 80, height: 60 }))),
+                              je("div", { className: Se.LogoContainer }, je(i.a, { href: "/" }, je(d.a, { src: "/logo.png", alt: "Logo Atix", className: Se.LogoAtix, width: 80, height: 60 }))),
                               je(
                                   "div",
                                   { className: Se.LabelContainer },
@@ -11242,7 +11242,7 @@
                                       return t === l ? "".concat(e, "px") : "(max-width: ".concat(e, "px) ").concat(e, "px");
                                   })
                                   .join(", "));
-                          return { src: (t = "../image" + t), sizes: o };
+                          return { src: (t = "../atixlabs/image" + t), sizes: o };
                       })({ src: t, unoptimized: o, layout: w, width: C, quality: N, sizes: n }));
                   D && ((S = void 0), (j = void 0), (R = void 0));
                   return d.default.createElement(
