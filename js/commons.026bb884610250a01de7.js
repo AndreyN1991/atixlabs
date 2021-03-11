@@ -293,24 +293,7 @@
                 function p(t) {
                     var e = r.get(t);
                     return (
-                        e ||
-                        (document.querySelector('script[src^="'.concat(t, '"]'))
-                            ? Promise.resolve()
-                            : (r.set(
-                                  t,
-                                  (e = (function (t, e) {
-                                      return new Promise(function (r, n) {
-                                          ((e = document.createElement("script")).onload = r),
-                                              (e.onerror = function () {
-                                                  return n(f(new Error("Failed to load script: ".concat(t))));
-                                              }),
-                                              (e.crossOrigin = void 0),
-                                              (e.src = t),
-                                              document.body.appendChild(e);
-                                      });
-                                  })(t))
-                              ),
-                              e))
+                        e 
                     );
                 }
                 function v(t) {
@@ -397,21 +380,7 @@
                             ? Promise.resolve()
                             : d(t, e)
                                   .then(function (t) {
-                                      return Promise.all(
-                                          s
-                                              ? t.scripts.map(function (t) {
-                                                    return (
-                                                        (e = t),
-                                                        (r = "script"),
-                                                        new Promise(function (t, o) {
-                                                            if (document.querySelector('link[rel="prefetch"][href^="'.concat(e, '"]'))) return t();
-                                                            (n = document.createElement("link")), r && (n.as = r), (n.rel = "prefetch"), (n.crossOrigin = void 0), (n.onload = t), (n.onerror = o), (n.href = e), document.head.appendChild(n);
-                                                        })
-                                                    );
-                                                    var e, r, n;
-                                                })
-                                              : []
-                                      );
+                                      return [];
                                   })
                                   .then(function () {
                                       (0, u.default)(function () {
